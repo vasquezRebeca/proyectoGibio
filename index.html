@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
+    <!--link css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <!--inicio de sesion-->
+        <section class="linkAcceso">
+             <a href="./paginas/inicioSesion.html">INICIAR SESION</a>
+        </section>
+    <header class="cabeza">
+        <!--logo-->
+        <img src="./Assets/GIBIO.logo.png" alt="logoGibio" width="80px">
+        <nav>
+            <ul>
+                <!--formulario de busqueda -->
+                <li>
+                    <form action="/index.html" method="post">
+                        <input type="text" name="palabrabuscada" id="/index.html" placeholder="Escriba palabra clave..." required>
+                        <button type="submit">🔎Buscar</button>
+                    </form>
+                </li>
+                <!--link de acceso inicial -->
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="./paginas/nosotros.html">Nosotros</a></li> 
+                <li><a href="./paginas/turnos.html">Turnos</a></li>   
+                <li><a href="./paginas/servicios.html">Servicios</a></li>  
+                <li><a href="./paginas/contacto.html">Contacto</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--carrusel-->
+        <section class="carrusel">
+            <img src="./Assets/banner.jpg" alt="carrusel">
+
+        </section>
+        <!--cards-->
+        <section class="cards">
+            <article>
+                <img src="./Assets/imagenEstudios.jpg" alt="imagenEstudios">
+                <a href="./paginas/estudios.html"><button>Estudios</button></a> 
+            </article>
+            <article>
+                <img src="./Assets/imagenCostos.jpg" alt="imagenTarifas">
+                <a href="./paginas/tarifas.html"><button>Tarifas</button></a> 
+            </article>
+            <article>
+                <img src="./Assets/imagenCronograma.jpg" alt="imagenCronograma">
+                <a href="./paginas/protocolo.html"><button>Protocolo</button></a> 
+            </article>
+        </section>
+        <!--ubicacion por google-->
+        <section class="ubicacion">
+            <h2>¿Donde estamos ubicados?</h2>
+            <article>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.218843459314!2d-58.42269192514688!3d-34.598627257227804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2e1493a6a3%3A0x1862a7c0b8163e5d!2sUTN.BA!5e0!3m2!1ses!2sar!4v1742067717693!5m2!1ses!2sar" 
+                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                 referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </article>
+            <article>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repudiandae
+                 veritatis aspernatur nostrum fugiat saepe,
+                 alias minima vel at odit mollitia ratione ad,
+                 voluptatem, tenetur dolor illum veniam iste
+                 aperiam!
+            </article>
+        </section>
+    </main>
+    <footer class="foo">
+        <section class="redes">
+            <!--logos y acceso redes-->
+            <article>
+                <a href="http://www.instagram.com/"><img src="./Assets/Instagram-Logo.wine.svg" alt="logoInstagram"></a>  <!-- ENLACE ABSOLUTO-->
+                <a href="http://linkedin.com"><img src="./Assets/linkedin-logo-svgrepo-com.svg" alt="logoLinkedin"></a>   <!-- ENLACE ABSOLUTO-->
+                <a href="http://gmail.com"><img src="./Assets/gmail-icon-logo.svg" alt="logoGmail"></a>   <!-- ENLACE ABSOLUTO-->
+            </article>
+            <article>
+                <p>Derechos Reservados⚡Astora.Company  </p>
+            </article>
+        </section>
+    </footer>
+</body>
+</html>

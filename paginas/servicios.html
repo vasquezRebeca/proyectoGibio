@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css
+    <link rel="stylesheet" href="/CSS/style.css">  -->
+    <title>Servicios</title>
+</head>
+<body>
+    <header>
+        <!--inicio de sesion -->
+        <a href="#inicioSesion">INICIAR SESION</a>
+        <!--logo -->
+        <img src="/Assets/GIBIO.logo.png" alt="logoGibio">
+        <nav>
+            <ul>
+                <!--formulario busqueda-->
+                <li>
+                    <form action="../index.html" method="post">
+                        <input type="text" name="palabraBuscada" id="../index.html" placeholder="Escriba Palabra clave..." required>
+                        <button type="submit">🔎 Buscar</button>
+                    </form>
+                </li>
+                <!--link acceso inicial -->
+                <li><a href="../index.html">Inicio</a></li><!--link fuera de carpeta[..]-->
+                <li><a href="./nosotros.html">Nosotros</a></li><!--ENLACE RELATIVO-->
+                <li><a href="./turnos.html">Turnos</a></li><!--ENLACE RELATIVO-->
+                <li><a href="./servicios.html">Servicios</a></li><!--ENLACE RELATIVO-->
+                <li><a href="./contacto.html">Contacto</a></li><!--ENLACE RELATIVO-->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--banner servicios-->
+        <section>
+            <img src="../Assets/banner_Servicios.jpg" alt="banner_servicios">
+            <h1>Servicios</h1>
+        </section>
+        <!--tabla del cronograma de atencion -->
+        <section>
+            <table>
+                <!--/tr= 1 fila en la tabla/th=encabezados en tabla/td= 1 celda de datos/rowspan=celda se extenderá verticalmente a lo largo de las siguientes 4 filas.-->
+                <tr>
+                    <th><h4>LUNES</h4></th>
+                    <th><h4>MARTES</h4></th>
+                    <th><h4>MIERCOLES</h4></th>
+                    <th><h4>JUEVES</h4></th>
+                    <th><h4>VIERNES</h4></th>
+                    <th><h4>SABADO</h4></th>
+                    <th><h4>DOMINGO</h4></th>
+                </tr>
+                <tr>
+                    <td>Medico Clinico</td>
+                    <td>Medico Clinico</td>
+                    <td>Medico Clinico</td>
+                    <td>Medico Clinico</td>
+                    <td>Medico Clinico</td>
+                    <td>Medico Clinico</td>
+                    <td rowspan="4">Cerrado</td>
+                </tr>
+                <tr>
+                    <td>Enfermeria</td>
+                    <td>Enfermeria</td>
+                    <td>Enfermeria</td>
+                    <td>Enfermeria</td>
+                    <td>Enfermeria</td>
+                    <td>Enfermeria</td>
+                </tr>
+                <tr>
+                    <td>Cardiología</td>
+                    <td>Pediatría</td>
+                    <td>Cardiología</td>
+                    <td>Pediatría</td>
+                    <td>Cardiología</td>
+                    <td>Urología</td>
+                </tr>
+                <tr>
+                    <td>Terapia Intravenosa</td>
+                    <td></td>
+                    <td>Terapia Intravenosa</td>
+                    <td></td>
+                    <td>Osteopatía</td>
+                    <td>Terapia Intravenosa</td>
+                </tr>
+            </table>
+        </section>
+        <!--terapia Intravenosa-->
+        <section id="terapiaIntravenosa">
+            <!--carrusel terapia intravenosa-->
+            <section>
+                <img src="../Assets/servicioTerapia.jpg" alt="carrusel_terapiaIntravenosa">
+            </section>
+            <!--beneficios,recomendaciones,pautas,implementacion(1 PARRAFO)-->
+            <section>
+                <h2>Terapia Intravenosa</h2>
+                <article>
+                    <h3>Beneficios</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel pulvinar
+                        dolor. Donec ultricies nulla id nibh facilisis, sed semper ante luctus.
+                        Vestibulum mattis sollicitudin feugiat. Etiam placerat, libero eu viverra
+                        imperdiet, lectus urna bibendum erat, a egestas nisl felis ut nisl.
+                        Cras ut volutpat metus, a molestie turpis. Sed gravida risus quis rhoncus
+                        congue. Quisque id nulla faucibus justo congue consequat.
+                        Donec vel ipsum massa. Integer nec sodales nisi. Morbi leo tortor, malesuada
+                        vel leo et, sagittis pellentesque elit. Pellentesque quis ullamcorper arcu.
+                        Aliquam tristique lectus non nibh finibus lacinia. Quisque pulvinar placerat ex, et imperdiet dui 
+                        efficitur at. Suspendisse nec magna finibus, egestas elit non, viverra sem.
+                    </p>
+                </article>
+                <article>
+                    <h3>Implementacion</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel pulvinar
+                        dolor. Donec ultricies nulla id nibh facilisis, sed semper ante luctus.
+                        Vestibulum mattis sollicitudin feugiat. Etiam placerat, libero eu viverra
+                        imperdiet, lectus urna bibendum erat, a egestas nisl felis ut nisl.
+                        Cras ut volutpat metus, a molestie turpis. Sed gravida risus quis rhoncus
+                        congue. Quisque id nulla faucibus justo congue consequat.
+                        Donec vel ipsum massa. Integer nec sodales nisi. Morbi leo tortor, malesuada
+                        vel leo et, sagittis pellentesque elit. Pellentesque quis ullamcorper arcu.
+                        Aliquam tristique lectus non nibh finibus lacinia. Quisque pulvinar placerat ex, et imperdiet dui 
+                        efficitur at. Suspendisse nec magna finibus, egestas elit non, viverra sem.
+                    </p>
+                </article>
+                <article>
+                    <h3>Recomendaciones</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel pulvinar
+                        dolor. Donec ultricies nulla id nibh facilisis, sed semper ante luctus.
+                        Vestibulum mattis sollicitudin feugiat. Etiam placerat, libero eu viverra
+                        imperdiet, lectus urna bibendum erat, a egestas nisl felis ut nisl.
+                        Cras ut volutpat metus, a molestie turpis. Sed gravida risus quis rhoncus
+                        congue. Quisque id nulla faucibus justo congue consequat.
+                        Donec vel ipsum massa. Integer nec sodales nisi. Morbi leo tortor, malesuada
+                        vel leo et, sagittis pellentesque elit. Pellentesque quis ullamcorper arcu.
+                        Aliquam tristique lectus non nibh finibus lacinia. Quisque pulvinar placerat ex, et imperdiet dui 
+                        efficitur at. Suspendisse nec magna finibus, egestas elit non, viverra sem.
+                    </p>
+                </article>
+                <article>
+                    <h3>Pautas</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel pulvinar
+                        dolor. Donec ultricies nulla id nibh facilisis, sed semper ante luctus.
+                        Vestibulum mattis sollicitudin feugiat. Etiam placerat, libero eu viverra
+                        imperdiet, lectus urna bibendum erat, a egestas nisl felis ut nisl.
+                        Cras ut volutpat metus, a molestie turpis. Sed gravida risus quis rhoncus
+                        congue. Quisque id nulla faucibus justo congue consequat.
+                        Donec vel ipsum massa. Integer nec sodales nisi. Morbi leo tortor, malesuada
+                        vel leo et, sagittis pellentesque elit. Pellentesque quis ullamcorper arcu.
+                        Aliquam tristique lectus non nibh finibus lacinia. Quisque pulvinar placerat ex, et imperdiet dui 
+                        efficitur at. Suspendisse nec magna finibus, egestas elit non, viverra sem.
+                    </p>
+                </article>
+            </section>
+            <!--seccion porque hacer una terapia intravenosa-->
+            <section>
+                <h2>¿Por que hacerse Terapia Intravenosa?</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum 
+                    mauris vitae neque consequat lobortis a eget metus. Aliquam auctor risus 
+                    vel velit ultrices, sed tempus velit venenatis. Donec luctus felis ut urna
+                    condimentum, quis aliquet velit maximus. Praesent vel velit id turpis aliquet
+                    luctus. Vivamus sit amet enim sed mauris aliquet interdum. Donec maximus venenatis
+                    quam vel suscipit. Mauris sollicitudin tellus a tellus interdum, id hendrerit erat
+                    imperdiet.
+                    In hac habitasse platea dictumst. Praesent tristique ac purus vitae commodo. Ut venenatis
+                    volutpat ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla
+                    bibendum elit, a egestas nisl fermentum ac. Sed molestie nisl sit amet lacus elementum, eget facilisis
+                    metus ultrices. Fusce at ultrices risus, non gravida purus. Fusce ornare fringilla lorem,
+                    sit amet sagittis tellus facilisis sed. In at lorem vulputate, porttitor purus sed, mollis
+                    turpis. Curabitur imperdiet risus metus, sit amet efficitur ipsum consequat ac. Aenean vitae lorem
+                    urna.
+                </p>
+            </section> 
+        </section>
+         <!--seccion enfermeria-->
+         <section id="enfermeria">
+               <article>
+                <img src="../Assets/imagen_enfermeriaVarios.jpg" alt="imagen_enfermeria">
+               </article>
+                <article>
+                 <h2>Enfermeria</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel pulvinar
+                    dolor. Donec ultricies nulla id nibh facilisis, sed semper ante luctus.
+                    Vestibulum mattis sollicitudin feugiat. Etiam placerat, libero eu viverra
+                    imperdiet, lectus urna bibendum erat, a egestas nisl felis ut nisl.
+                    Cras ut volutpat metus, a molestie turpis. Sed gravida risus quis rhoncus
+                    congue. Quisque id nulla faucibus justo congue consequat.
+                    Donec vel ipsum massa. Integer nec sodales nisi. Morbi leo tortor, malesuada
+                    vel leo et, sagittis pellentesque elit. Pellentesque quis ullamcorper arcu.
+                    Aliquam tristique lectus non nibh finibus lacinia. Quisque pulvinar placerat ex, et imperdiet dui 
+                    efficitur at. Suspendisse nec magna finibus, egestas elit non, viverra sem.
+                </p>   
+                </article>
+            </section>
+            <!--seccion pediatria-->
+            <section id="pediatria">
+                <h2>Pediatria</h2>
+                <article>
+                    <img src="../Assets/imagen_pediatria.jpg" alt="imagen_pediatria">
+                </article>
+                <article>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/eUCVvA8HThE?si=n8sCwoULnMb-qW-J" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h4>Maniobras en caso de Ahogo</h4>
+                </article>
+            </section>
+            <!--seccion osteopatia-->
+            <section id="osteopatia">
+                <article>
+                    <img src="../Assets/imagen_osteopatiaA.jpg" alt="imagen_ostepatiaA">
+                </article>
+                <article>
+                    <h2>Osteopatía</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel pulvinar
+                        dolor. Donec ultricies nulla id nibh facilisis, sed semper ante luctus.
+                        Vestibulum mattis sollicitudin feugiat. Etiam placerat, libero eu viverra
+                        imperdiet, lectus urna bibendum erat, a egestas nisl felis ut nisl.
+                        Cras ut volutpat metus, a molestie turpis. Sed gravida risus quis rhoncus
+                        congue. Quisque id nulla faucibus justo congue consequat.
+                        Donec vel ipsum massa. Integer nec sodales nisi. Morbi leo tortor, malesuada
+                        vel leo et, sagittis pellentesque elit. Pellentesque quis ullamcorper arcu.
+                        Aliquam tristique lectus non nibh finibus lacinia. Quisque pulvinar placerat ex, et imperdiet dui 
+                        efficitur at. Suspendisse nec magna finibus, egestas elit non, viverra sem.
+                    </p>
+                </article>
+                <article>
+                    <img src="../Assets/imagen_osteopatiaC.jpg" alt="imagen_osteopatiaC">
+                </article>
+            </section>
+            <!--seccion cardiologia-->
+            <section id="cardiologia">
+                <article>
+                    <h2>Cardiologia</h2>
+                    <img src="../Assets/imagen_cardiologia.jpg" alt="imagen_cardiologia">
+                </article>
+                <article>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel pulvinar
+                        dolor. Donec ultricies nulla id nibh facilisis, sed semper ante luctus.
+                        Vestibulum mattis sollicitudin feugiat. Etiam placerat, libero eu viverra
+                        imperdiet, lectus urna bibendum erat, a egestas nisl felis ut nisl.
+                        Cras ut volutpat metus, a molestie turpis. Sed gravida risus quis rhoncus
+                        congue. Quisque id nulla faucibus justo congue consequat.
+                        Donec vel ipsum massa. Integer nec sodales nisi. Morbi leo tortor, malesuada
+                        vel leo et, sagittis pellentesque elit. Pellentesque quis ullamcorper arcu.
+                        Aliquam tristique lectus non nibh finibus lacinia. Quisque pulvinar placerat ex, et imperdiet dui 
+                        efficitur at. Suspendisse nec magna finibus, egestas elit non, viverra sem.                    
+                    </p>
+                </article>
+                <section>
+                    <img src="../Assets/Cartel Guía de Consejos Salud Mental Ilustrado Rojo y Rosa.png" alt="cartel_cardiologia">
+                 </section>
+            </section>
+            <!--seccion medicina clinica-->
+            <section id="medicinaClinica">
+                <section>
+                    <img src="../Assets/imagen_medicoClinico.jpg" alt="imagen_medicoClinico">
+                    <img src="../Assets/imagen_medicoClinicoUNO.jpg" alt="imagen_medico">
+                </section>
+                <section>
+                <h2>Medicina Clinica</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel pulvinar
+                        dolor. Donec ultricies nulla id nibh facilisis, sed semper ante luctus.
+                        Vestibulum mattis sollicitudin feugiat. Etiam placerat, libero eu viverra
+                        imperdiet, lectus urna bibendum erat, a egestas nisl felis ut nisl.
+                        Cras ut volutpat metus, a molestie turpis. Sed gravida risus quis rhoncus
+                        congue. Quisque id nulla faucibus justo congue consequat.
+                        Donec vel ipsum massa. Integer nec sodales nisi. Morbi leo tortor, malesuada
+                        vel leo et, sagittis pellentesque elit. Pellentesque quis ullamcorper arcu.
+                        Aliquam tristique lectus non nibh finibus lacinia. Quisque pulvinar placerat ex, et imperdiet dui 
+                        efficitur at. Suspendisse nec magna finibus, egestas elit non, viverra sem.                    
+                    </p>
+                </section>
+            </section>
+            <!--seccion urologia-->
+            <section id="urologia">
+                <article>
+                    <img src="../Assets/imagen_seccionUrologia.jpg" alt="imagen_urologia"> 
+                </article>
+                <article>
+                    <h2>Urologia</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel pulvinar
+                        dolor. Donec ultricies nulla id nibh facilisis, sed semper ante luctus.
+                        Vestibulum mattis sollicitudin feugiat. Etiam placerat, libero eu viverra
+                        imperdiet, lectus urna bibendum erat, a egestas nisl felis ut nisl.
+                        Cras ut volutpat metus, a molestie turpis. Sed gravida risus quis rhoncus
+                        congue. Quisque id nulla faucibus justo congue consequat.
+                        Donec vel ipsum massa. Integer nec sodales nisi. Morbi leo tortor, malesuada
+                        vel leo et, sagittis pellentesque elit. Pellentesque quis ullamcorper arcu.
+                        Aliquam tristique lectus non nibh finibus lacinia. Quisque pulvinar placerat ex, et imperdiet dui 
+                        efficitur at. Suspendisse nec magna finibus, egestas elit non, viverra sem.                    
+                    </p>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer class="foo">
+        <section>
+            <!--logos y acceso redes-->
+            <article>
+                <a href="http://www.instagram.com/"><img src="./Assets/Instagram-Logo.wine.svg" alt="logoInstagram"></a>  <!-- ENLACE ABSOLUTO-->
+                <a href="http://linkedin.com"><img src="./Assets/linkedin-logo-svgrepo-com.svg" alt="logoLinkedin"></a>   <!-- ENLACE ABSOLUTO-->
+                <a href="http://gmail.com"><img src="./Assets/gmail-icon-logo.svg" alt="logoGmail"></a>   <!-- ENLACE ABSOLUTO-->
+            </article>
+            <article>
+                <p>Derechos Reservados⚡Astora.Company  </p>
+            </article>
+        </section>
+    </footer>
+</body>
+</html>
